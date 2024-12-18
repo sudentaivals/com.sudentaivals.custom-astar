@@ -6,7 +6,7 @@ namespace sudentaivals.CustomAstar
 {
     public class Astar
     {
-        //fix
+        
         private FastPriorityQueue<Node> _openList;
 
         private readonly int CARDINAL_COST = 70;
