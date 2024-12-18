@@ -10,14 +10,17 @@ jobs:
     name: release
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout code
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Release
-        uses: cycjimmy/semantic-release-action@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          extra_plugins: |
-            @semantic-release/changelog
-            @semantic-release/git
+          node-version: 18 # semantic-release требует Node.js >= 14
+      - name: Install dependencies
+        run: npm install semantic-release @semantic-release/changelog @semantic-release/git @semantic-release/npm @semantic-release/github
+      - name: Run semantic-release
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
