@@ -16,6 +16,7 @@ namespace sudentaivals.CustomAstar
         public Node Parent;
         public Vector3 WorldPosition;
         public bool IsClosed;
+        public bool IsInOpenList;
 
         public Node(Vector3 pos)
         {
