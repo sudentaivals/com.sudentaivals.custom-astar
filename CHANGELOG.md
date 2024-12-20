@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.0...v1.0.1) (2024-12-20)
+
+
+### Bug Fixes
+
+* optimizations for Astar.cs and Node.cs ([0721124](https://github.com/sudentaivals/com.sudentaivals.custom-astar/commit/07211248ec01733005e8ab62ac70e196e2c0ea83))
+
 # 1.0.0 (2024-12-18)
 
 

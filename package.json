@@ -1,11 +1,18 @@
 {
   "name": "com.sudentaivals.custom-astar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Custom astar",
   "description": "Custom astar for 2d projects",
   "unity": "2019.1",
   "unityRelease": "0b5",
   "author": {
     "name": "Nick"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.3",
+    "semantic-release": "^22.0.12"
   }
 }
