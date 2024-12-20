@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.2...v1.0.3) (2024-12-20)
+
+
+### Bug Fixes
+
+* updated node reset ([a1dc99f](https://github.com/sudentaivals/com.sudentaivals.custom-astar/commit/a1dc99ffe727a9e8e6cddf1b2d01db2c60dd8759))
+
 ## [1.0.2](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.1...v1.0.2) (2024-12-20)
 
 
