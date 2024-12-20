@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.1...v1.0.2) (2024-12-20)
+
+
+### Bug Fixes
+
+* testing updated ([59624d3](https://github.com/sudentaivals/com.sudentaivals.custom-astar/commit/59624d34bc148847edb222f41ce8b0f01d8bb8f8))
+
 ## [1.0.1](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.0...v1.0.1) (2024-12-20)
 
 
