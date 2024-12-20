@@ -67,6 +67,7 @@ namespace sudentaivals.CustomAstar
                     var node = Nodes[i,j];
                     node.Parent = null;
                     node.IsClosed = false;
+                    node.IsInOpenList = false;
                     node.F = 0;
                     node.G = 0;
                     node.H = 0;
