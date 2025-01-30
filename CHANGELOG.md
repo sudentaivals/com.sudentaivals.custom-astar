@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.4...v1.0.5) (2025-01-30)
+
+
+### Bug Fixes
+
+* now neighbors are cached ([ccccbb3](https://github.com/sudentaivals/com.sudentaivals.custom-astar/commit/ccccbb30c58aebc6307633d7e83229b5977e322a))
+
 ## [1.0.4](https://github.com/sudentaivals/com.sudentaivals.custom-astar/compare/v1.0.3...v1.0.4) (2025-01-14)
 
 
