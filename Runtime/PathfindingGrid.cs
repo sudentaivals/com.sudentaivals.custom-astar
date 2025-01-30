@@ -29,6 +29,7 @@ namespace sudentaivals.CustomAstar
         {
             ComputeGrid();
             MarkObstacleNeighbors();
+            CachedNeighbors();
         }
 
         private void ComputeGrid()
@@ -46,6 +47,18 @@ namespace sudentaivals.CustomAstar
                     if(collisions != 0) node.MarkAsObstacle();
 
                     Nodes[i, j] = node;
+                }
+            }
+        }
+
+        private void CachedNeighbors()
+        {
+            for (int i = 0; i < _numOfColumns; i++)
+            {
+                for (int j = 0; j < _numOfRows; j++)
+                {
+                    Node node = Nodes[i,j];
+                    node.CachedNeighbors = GetTraversableNeighbors(i, j);
                 }
             }
         }
@@ -92,6 +105,7 @@ namespace sudentaivals.CustomAstar
 
         public List<Node> GetNeighbors(Node node)
         {
+            return node.CachedNeighbors;
             List<Node> neighbors = new List<Node>();
             var (column, row) = GetGridCoordinates(node.WorldPosition);
             neighbors.AddRange(GetTraversableNeighbors(column, row));

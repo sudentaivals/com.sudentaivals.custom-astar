@@ -18,6 +18,8 @@ namespace sudentaivals.CustomAstar
         public bool IsClosed;
         public bool IsInOpenList;
 
+        public List<Node> CachedNeighbors;
+
         public Node(Vector3 pos)
         {
             F = 0;
